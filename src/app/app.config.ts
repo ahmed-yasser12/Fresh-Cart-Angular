@@ -15,9 +15,9 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes, withInMemoryScrolling({ scrollPositionRestoration: 'top' })),
     provideClientHydration(withEventReplay()),
     provideTranslateService({
-      loader: provideTranslateHttpLoader({
-        prefix: './i18n/',
-        suffix: '.json',
+        loader: provideTranslateHttpLoader({
+          prefix: '/i18n/',
+          suffix: '.json',
       }),
       fallbackLang: 'en',
       lang: 'en',
