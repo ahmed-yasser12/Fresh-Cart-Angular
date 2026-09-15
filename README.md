@@ -1,41 +1,122 @@
-🛒 FreshCart - E-Commerce Platform
-A high-performance, fully functional E-commerce application built with Angular 17+. This project demonstrates a real-world shopping experience, focusing on state-of-the-art frontend architecture, seamless user flow, and responsive UI design.
+# 🛒 FreshCart - E-Commerce Platform
 
-🔗 [Live Demo [Link](https://fresh-cart-ecom.netlify.app/home)] | 🎨 [Figma Design [Link](https://www.figma.com/design/7GOjynvDWj2Lnbb4IKjbXK/Freshcart---E-Commerce-?node-id=12-2477&p=f&t=gMo74tDnzQwWl1bp-0)  ]
-🚀 Overview
-FreshCart is designed to provide a smooth shopping experience. It features a complete product lifecycle—from browsing categories and brands to managing a persistent cart and completing a secure checkout process.
+A modern, fully functional E-Commerce application built with **Angular 21+**. The project demonstrates a real-world shopping experience with a focus on scalable frontend architecture, reactive state management, reusable components, and responsive UI design.
 
-🛠 Tech Stack
-Framework: Angular (v21+) using Standalone Components.
+🔗 **[Live Demo](https://ahmed-yasser12.github.io/Fresh-Cart-Angular/)**
+🎨 **[Figma Design](https://www.figma.com/design/7GOjynvDWj2Lnbb4IKjbXK/Freshcart---E-Commerce-?node-id=12-2477&p=f&t=gMo74tDnzQwWl1bp-0)**
 
-Styling: Tailwind CSS & Flowbite for a modern, utility-first UI.
+---
 
-State Management: RxJS & Signals for reactive data handling.
+## 🚀 Overview
 
-Security: JWT-based Authentication & Route Guards.
+FreshCart provides a complete online shopping experience, allowing users to browse products, explore categories and brands, manage their cart and wishlist, and complete the checkout flow.
 
-HTTP: Interceptors for handling tokens and global error management.
+The project focuses on building a maintainable Angular application using modern frontend development practices.
 
-✨ Key Features
-Dynamic Product Catalog: Filterable products by category and brand with a real-time search functionality.
+---
 
-Advanced Cart System: Add, remove, and update quantities with persistent storage and real-time total calculation.
+## 🛠 Tech Stack
 
-User Authentication: Secure Sign-up and Login flow with validation and session management.
+* **Framework:** Angular 21+ with Standalone Components
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS & Flowbite
+* **State Management:** RxJS & Angular Signals
+* **Authentication:** JWT-based Authentication
+* **Routing:** Angular Router & Route Guards
+* **HTTP:** Angular HttpClient & HTTP Interceptors
+* **UI Feedback:** Toast Notifications
+* **Carousels:** Owl Carousel / Swiper
 
-Wishlist: Save favorite products for later viewing.
+---
 
-Checkout & Shipping: Multi-step checkout process including shipping address forms and order placement.
+## ✨ Key Features
 
-Image Sliders: Smooth product previews using Owl Carousel / Swiper.
+### 🛍️ Dynamic Product Catalog
 
-Toast Notifications: Real-time feedback for user actions (Ng-Toast / SweetAlert).
+* Browse products and product details
+* Filter products by category and brand
+* Real-time product search
+* Responsive product layouts
 
-🏗 Engineering Highlights
-Lazy Loading: Optimized initial bundle size by implementing modular lazy loading for all main routes.
+### 🛒 Advanced Cart System
 
-Custom Pipes & Directives: Enhanced data formatting and DOM interactions through custom Angular logic.
+* Add and remove products
+* Update product quantities
+* Persistent cart state
+* Real-time total calculation
 
-Reusable Components: Built a library of atomic UI components (Buttons, Inputs, Cards) to ensure consistency.
+### 🔐 User Authentication
 
-Performance: Optimized for Core Web Vitals with lazy-loaded images and efficient change detection.
+* User registration and login
+* Form validation
+* JWT-based authentication
+* Protected routes using Route Guards
+* Session management
+
+### ❤️ Wishlist
+
+* Add products to wishlist
+* Remove products from wishlist
+* Manage favorite products
+
+### 📦 Checkout & Orders
+
+* Shipping address form
+* Multi-step checkout flow
+* Order placement
+* Order management
+
+### 🎠 Product Sliders
+
+* Responsive product previews
+* Interactive image/product carousels
+
+### 🔔 Notifications
+
+* Toast notifications for user actions
+* Success and error feedback
+
+---
+
+## 🏗️ Engineering Highlights
+
+### ⚡ Lazy Loading
+
+Implemented lazy-loaded routes to reduce the initial JavaScript bundle and improve application loading performance.
+
+### 🧩 Reusable Components
+
+Built reusable UI components such as buttons, inputs, cards, and product-related components to maintain consistency across the application.
+
+### 🔧 Custom Pipes & Directives
+
+Created custom Angular pipes and directives for data formatting and reusable DOM behavior.
+
+### 📡 Reactive Data Handling
+
+Used **RxJS** and **Angular Signals** to handle reactive application state and asynchronous data.
+
+### 🚀 Performance
+
+Applied frontend performance practices such as lazy loading, optimized assets, and efficient Angular rendering.
+
+### 📱 Responsive Design
+
+Designed the application to provide a consistent experience across desktop, tablet, and mobile devices.
+
+---
+
+## 📸 Screenshots
+
+*Add screenshots of the main pages here.*
+
+---
+
+## 👨‍💻 Author
+
+**Ahmed Yasser**
+
+Frontend Developer specializing in **Angular, React.js, Next.js, and TypeScript**.
+
+* GitHub: `https://github.com/ahmed-yasser12`
+* LinkedIn: `https://www.linkedin.com/in/ahmed-yasser-b34375228/`
